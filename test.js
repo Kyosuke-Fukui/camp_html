@@ -20,7 +20,7 @@ $(function () {
       clearInterval(myVar);
 
       var music = new Audio(
-        "https://github.com/Kyosuke-Fukui/camp_html/music/システムエラー・不正解音.mp3"
+        "https://kyosuke-fukui.github.io/camp_html/music/システムエラー・不正解音.mp3"
       );
       music.play();
 
