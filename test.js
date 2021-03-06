@@ -8,7 +8,7 @@ $(function () {
     let tstop = 10000;
     var myVar = setInterval(fakepy, tspan);
 
-    //円周率続き（本当は乱数を一定時間ごとに表示させているだけ）
+    //円周率続き（本当は乱数を一定時間ごとに表示させている）
     function fakepy() {
       var num = Math.floor(Math.random() * 9) + 1; //乱数の設定
       $("main").append(num);
